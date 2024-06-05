@@ -1,0 +1,12 @@
+body{
+    background-color: cadetblue;
+}
+.offer{
+    background-color: chartreuse;
+}
+.offer .learn__title{
+    background-color: blueviolet;
+}
+#heading{
+    background-color: blue;
+}
