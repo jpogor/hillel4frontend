@@ -1,12 +1,142 @@
 body{
-    background-color: cadetblue;
+    background: #EFEFF2;
+    color: #19191C;
+    margin: 0;
+    font: 400 18px/28px Inter, sans-serif;
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.header__box{
+    display: flex;
+    align-items: center;
+    gap: 68px;
+}
+.nav__list{
+    display: flex;
+    list-style: none;
+    gap: 48px;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.link{
+    color: #19191C;
+    text-decoration: none;
+}
+.btn-box{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 48px;
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 38px;
+    align-items: center;
+    display: flex;
+    gap: 14px;
+    color: #19191C;
+    text-decoration: none;
+}
+.header__link{
+    color: #19191C;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    text-decoration: none;
+}
+.header__btn{
+    padding: 12px 37px;
+    background: #19191C;
+    color: #EFEFF2;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    text-decoration: none;
 }
 .offer{
-    background-color: chartreuse;
+    display: flex;
+    justify-content: space-between;
 }
-.offer .learn__title{
-    background-color: blueviolet;
+.offer__holder{
+    width: 648px;
 }
-#heading{
-    background-color: blue;
+.offer__title{
+    font-size: 56px;
+    line-height: 70px;
+    font-weight: 700;
+}
+.footer{
+    background: #19191C;
+    color: #EFEFF2;
+}
+.footer__nav{
+    display: flex;
+    justify-content: space-between;
+    width: 1340px;
+    margin: 0 auto;
+}
+.footer__logo{
+    margin-top: 0px;
+    margin-bottom: 14px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 800;
+    align-items: center;
+    display: flex;
+    gap: 14px;
+    color: #EFEFF2;
+    text-decoration: none;
+}
+/*
+.footer__box{
+    align-items: center;
+}
+*/
+.footer__contact{
+    font-size: 24px;
+    line-height: 29px;
+    font-weight: 600;
+    color: #EFEFF2;
+    text-decoration: none;
+}
+.footer__title{
+    margin-top: 10px;
+    margin-bottom: 14px;
+    list-style: none;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+}
+.footer__lists{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+}
+.footer__list{
+    color: #EFEFF2;
+    text-decoration: none;
+}
+.copyright{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 2px;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #6D6D77;
 }
