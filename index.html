@@ -41,11 +41,11 @@
             <h1 class="offer__title" id="heading">
                 Explore thousands of hands-on creative classes.
             </h1>
-            <p class="offer__discription">
+            <p class="offer__description">
                 Start learning for <a href="#">free</a>
             </p>
-            <button class="button">
-                Choose a cource
+            <button class="offer__button">
+                Choose a course
             </button>
             <h2 class="offer__discount">
                 50%
@@ -57,24 +57,19 @@
             </p>
         </div>
         <ul class="offer__list">
-            <li>Marketer</li>
-            <li>Illustrator</li>
-            <li>Animator</li>
-            <li>Programmer</li>
-            <li><a href="designer.html">Designer</a></li>
-            <li>Photographer</li>
+            <li class="offer__item offer__marketer">Marketer</li>
+            <li class="offer__item offer__illustrator">Illustrator</li>
+            <li class="offer__item offer__animator">Animator</li>
+            <li class="offer__item offer__programmer">Programmer</li>
+            <li class="offer__item offer__designer">Designer<a href="designer.html"></a></li>
+            <li class="offer__item offer__photographer">Photographer</li>
         </ul>
     </section>
-    <img src="img/Ellipse 20.svg" alt="Ellipse">
-    <img src="img/Ellipse 21.svg" alt="Ellipse">
-    <img src="img/Ellipse 22.svg" alt="Ellipse">
-    <img src="img/Rectangle 107.svg" alt="Rectangle">
-    <img src="img/confident-sassy-young-bearded-gay-man-pink-t-shirt-shirt-hold-hand-waist-pointing-upper-left-corner-smiling-suggest-friends-visit-party-nearby 1.png" alt="Background">
     <section class="learn">
         <div class="learn__text">
-            <h2 class="learn__title">
+            <p class="learn__title">
                 What you will learn
-            </h2>
+            </p>
             <p class="learn__description">
                 Up-to-date knowledge from recognized market experts for beginners and practitioners
             </p>
@@ -82,22 +77,22 @@
                 On the platform, you can gain knowledge on current topics and in-demand skills. All courses are aimed at practice: we monitor the relevance of the material and help with employment and internship
             </p>
         </div>
-        <div class="learn__counters">
-            <div class="learn__counter-item">
-                <p class="learn__counter-number">56</p>
-                <p class="learn__counter-description">Courses</p>
+        <div class="learn__box">
+            <div class="learn__box-item">
+                <p class="learn__subtitle">56</p>
+                <p class="learn__description">Courses</p>
             </div>
         </div>
-        <div class="learn__counters">
-            <div class="learn__counter-item">
-                <p class="learn__counter-number">108</p>
-                <p class="learn__counter-description">Curators</p>
+        <div class="learn__box">
+            <div class="learn__box-item">
+                <p class="learn__subtitle">108</p>
+                <p class="learn__description">Curators</p>
             </div>
         </div>
-        <div class="learn__counters">
-            <div class="learn__counter-item">
-                <p class="learn__counter-number">3 723</p>
-                <p class="learn__counter-description">Graduates</p>
+        <div class="learn__box">
+            <div class="learn__box-item">
+                <p class="learn__subtitle">3 723</p>
+                <p class="learn__description">Graduates</p>
             </div>
         </div>
     </section>
@@ -105,19 +100,21 @@
         <h2 class="discover__title">
             Discover Lifelong Learning
         </h2>
-        <ul class="discover__list">
-            <li><button>Popular</button></li>
-            <li><button>Animation</button></li>
-            <li><button>Design</button></li>
-            <li><button>Illustration</button></li>
-            <li><button>Programming</button></li>
-            <li><button>Photo & Film</button></li>
-            <li><button>Marketing</button></li>
-        </ul>   
-        <a href="#">
-            See more
-            <img src="img/see_more_arrov.svg" alt="see more">
-        </a>
+        <div class="discover__box">
+            <ul class="discover__list">
+                <li>Popular</li>
+                <li>Animation</li>
+                <li>Design</li>
+                <li>Illustration</li>
+                <li>Programming</li>
+                <li>Photo & Film</li>
+                <li>Marketing</li>
+            </ul>
+            <a class="discover__more" href="#">
+                See more
+                <img src="img/see_more_arrow.svg" alt="see more">
+            </a>
+        </div>
         <div class="discover__cards">
             <article class="discover__card-item">
                 <img src="img/card-img-1.jpg" alt="Sales Marketing">
@@ -151,65 +148,67 @@
             </p>
         </div>
         <form action="https://fom.in.ua/echo" class="find-program__form">
-            <input type="text" name="name" placeholder="Name" required>
-            <input type="email" name="email" placeholder="E-Mail" required>
-            <button class="find-program__button">Help me</button>
-        </form> 
+            <input class="find-program__form" type="text" name="name" placeholder="Name" required>
+            <input class="find-program__form" type="email" name="email" placeholder="E-Mail" required>
+            <button class="find-program__btn">Help me</button>
+        </form>
     </section>
 </main>
 
-<footer class="footer container">
-    <section class="footer footer__nav">
-        <div class="footer__box">
-                <a class="footer__logo" href="index.html">
-                    <img src="img/logo_on_black.svg" alt="logo">
-                    UpDate
-                </a>
-            <ul class="footer__lists">
-                <li><a class="footer__contact" href="mailto:support@update.com">support@update.com</a></li>
-                <li><a class="footer__contact" href="tel:12136771024">+1 (213) 677 10 24</a></li>
-            </ul>
-        </div>
-        <div class="footer__box">
-            <h6 class="footer__title">Courses</h6>
-            <ul class="footer__lists">
-                <li><a class="footer__list" href="#">Animation</a></li>
-                <li><a class="footer__list" href="#">Design</a></li>
-                <li><a class="footer__list" href="#">Illustration</a></li>
-                <li><a class="footer__list" href="#">Programming</a></li>
-                <li><a class="footer__list" href="#">Photo & Film</a></li>
-                <li><a class="footer__list" href="#">Marketing</a></li>
-            </ul>
-        </div>
-        <div class="footer__box">
-            <h6 class="footer__title">Teachers</h6>
-            <ul class="footer__lists">
-                <li><a class="footer__list" href="#">All Teachers</a></li>
-                <li><a class="footer__list" href="#">Become a Teacher</a></li>
-            </ul>
-        </div>
-        <div class="footer__box">
-            <h6 class="footer__title">Information</h6>
-            <ul class="footer__lists">
-                <li><a class="footer__list" href="#">Blog</a></li>
-                <li><a class="footer__list" href="#">About us</a></li>
-                <li><a class="footer__list" href="#">FAQ</a></li>
-            </ul>
-        </div>
-        <div class="footer__box">
-            <h6 class="footer__title">En</h6>
-            <ul class="footer__lists">
-                <li><a class="footer__list" href="#">English</a></li>
-                <li><a class="footer__list" href="#">French</a></li>
-                <li><a class="footer__list" href="#">Russian</a></li>
-                <li><a class="footer__list" href="#">Ukrainian</a></li>
-            </ul>
-        </div>
-    </section>
-    <section class="footer copyright">
-        <a class="copyright">Policy privacy</a>
-        <a class="copyright">Copyright © 2022. All rights reserved</a>
-    </section>
+<footer class="footer">
+    <div>
+        <section class="footer footer__nav">
+            <div class="footer__box">
+                    <a class="footer__logo" href="index.html">
+                        <img src="img/logo_on_black.svg" alt="logo">
+                        UpDate
+                    </a>
+                <ul class="footer__lists">
+                    <li><a class="footer__contact" href="mailto:support@update.com">support@update.com</a></li>
+                    <li><a class="footer__contact" href="tel:12136771024">+1 (213) 677 10 24</a></li>
+                </ul>
+            </div>
+            <div class="footer__box">
+                <h6 class="footer__title">Courses</h6>
+                <ul class="footer__lists">
+                    <li><a class="footer__list" href="#">Animation</a></li>
+                    <li><a class="footer__list" href="#">Design</a></li>
+                    <li><a class="footer__list" href="#">Illustration</a></li>
+                    <li><a class="footer__list" href="#">Programming</a></li>
+                    <li><a class="footer__list" href="#">Photo & Film</a></li>
+                    <li><a class="footer__list" href="#">Marketing</a></li>
+                </ul>
+            </div>
+            <div class="footer__box">
+                <h6 class="footer__title">Teachers</h6>
+                <ul class="footer__lists">
+                    <li><a class="footer__list" href="#">All Teachers</a></li>
+                    <li><a class="footer__list" href="#">Become a Teacher</a></li>
+                </ul>
+            </div>
+            <div class="footer__box">
+                <h6 class="footer__title">Information</h6>
+                <ul class="footer__lists">
+                    <li><a class="footer__list" href="#">Blog</a></li>
+                    <li><a class="footer__list" href="#">About us</a></li>
+                    <li><a class="footer__list" href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer__box">
+                <h6 class="footer__title">En</h6>
+                <ul class="footer__lists">
+                    <li><a class="footer__list" href="#">English</a></li>
+                    <li><a class="footer__list" href="#">French</a></li>
+                    <li><a class="footer__list" href="#">Russian</a></li>
+                    <li><a class="footer__list" href="#">Ukrainian</a></li>
+                </ul>
+            </div>
+        </section>
+        <section class="footer__copyright">
+            <a class="footer__copyright">Policy privacy</a>
+            <a class="footer__copyright">Copyright © 2022. All rights reserved</a>
+        </section>
+    </div>
 </footer>
 
 </body>
