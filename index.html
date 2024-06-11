@@ -3,7 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, user-scalable=no, initial-scale=1.0,
+                  maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -148,8 +149,10 @@
             </p>
         </div>
         <form action="https://fom.in.ua/echo" class="find-program__form">
-            <input class="find-program__form" type="text" name="name" placeholder="Name" required>
-            <input class="find-program__form" type="email" name="email" placeholder="E-Mail" required>
+<!--            <label for="name">Name</label>-->
+            <input class="find-program__input" type="text" name="name" id="name" placeholder="Name" required>
+<!--            <label for="email">E-Mail</label>-->
+            <input class="find-program__input" type="email" name="email" id="email" placeholder="E-Mail" required>
             <button class="find-program__btn">Help me</button>
         </form>
     </section>

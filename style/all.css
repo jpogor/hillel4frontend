@@ -272,9 +272,21 @@ body{
     margin-top: 22px;
     display: unset;
     width: 700px;
+}
+.find-program__input{
+    border: none;
+    border-bottom: 2px solid #19191C;
+    background-color: #DEEFE4;
+    margin-top: 22px;
+    width: 700px;
     font-size: 32px;
     font-weight: 700;
     line-height: 70px;
+}
+.find-program__input:focus {
+    /*border: none;*/
+    /*border-bottom: 2px solid #19191C;*/
+    background-color: lightblue;
 }
 .find-program__btn{
     margin-top: 42px;
