@@ -13,29 +13,25 @@
 </head>
 <body>
 
-<header>
-    <a href="index.html">
-        <img src="img/logo.svg" alt="logo">
-        UpDate
-    </a> 
-    <nav>
-        <ul>
-            <li>
-                <a href="#">Courses</a>
-            </li>
-            <li>
-                <a href="#">Teachers</a>
-            </li>
-            <li>
-                <a href="#">Blog</a>
-            </li>
-            <a href="#">En</a>
-            <a href="#">Sign In</a>
-            <button>
-                <a href="#">Trial free</a>
-            </button>
-        </ul>
-    </nav>
+<header class="container header">
+    <div class="header__box">
+        <a class="logo" href="index.html">
+            <img src="img/logo.svg" alt="logo">
+            UpDate
+        </a>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li><a class="link" href="#">Courses</a></li>
+                <li><a class="link" href="#">Teachers</a></li>
+                <li><a class="link" href="#">Blog</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="btn-box">
+        <a class="header__link" href="#">En</a>
+        <a class="header__link" href="#">Sign In</a>
+        <a class="header__btn"  href="#">Trial free</a>
+    </div>
 </header>
 
 <main>
@@ -159,52 +155,60 @@
     </section>
 </main>
 
-<footer>
-    <div>
-        <a href="index.html"><img src="img/logo.svg" alt="logo">UpDate</a> 
-        <a href="mailto:support@update.com">support@update.com</a>
-        <a href="tel:12136771024">+1 (213) 677 10 24</a>
+<footer class="footer">
+    <div class="footer__rows">
+        <section class="footer">
+            <div class="footer__box">
+                <a class="footer__logo" href="index.html">
+                    <img src="img/logo_on_black.svg" alt="logo">
+                    UpDate
+                </a>
+                <ul class="footer__lists__">
+                    <li><a class="footer__contact" href="mailto:support@update.com">support@update.com</a></li>
+                    <li><a class="footer__contact" href="tel:12136771024">+1 (213) 677 10 24</a></li>
+                </ul>
+            </div>
+            <div class="footer__box">
+                <h6 class="footer__title" tabindex="0">Courses</h6>
+                <ul class="footer__lists">
+                    <li><a class="footer__list" href="#">Animation</a></li>
+                    <li><a class="footer__list" href="#">Design</a></li>
+                    <li><a class="footer__list" href="#">Illustration</a></li>
+                    <li><a class="footer__list" href="#">Programming</a></li>
+                    <li><a class="footer__list" href="#">Photo & Film</a></li>
+                    <li><a class="footer__list" href="#">Marketing</a></li>
+                </ul>
+            </div>
+            <div class="footer__box">
+                <h6 class="footer__title" tabindex="0">Teachers</h6>
+                <ul class="footer__lists">
+                    <li><a class="footer__list" href="#">All Teachers</a></li>
+                    <li><a class="footer__list" href="#">Become a Teacher</a></li>
+                </ul>
+            </div>
+            <div class="footer__box">
+                <h6 class="footer__title" tabindex="0">Information</h6>
+                <ul class="footer__lists">
+                    <li><a class="footer__list" href="#">Blog</a></li>
+                    <li><a class="footer__list" href="#">About us</a></li>
+                    <li><a class="footer__list" href="#">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="footer__box">
+                <h6 class="footer__title" tabindex="0">En</h6>
+                <ul class="footer__lists">
+                    <li><a class="footer__list" href="#">English</a></li>
+                    <li><a class="footer__list" href="#">French</a></li>
+                    <li><a class="footer__list" href="#">Russian</a></li>
+                    <li><a class="footer__list" href="#">Ukrainian</a></li>
+                </ul>
+            </div>
+        </section>
+        <div class="footer__copyright">
+            <a class="footer__copyright">Policy privacy: Copyright © 2022. All rights reserved</a>
+        </div>
     </div>
-    <div class="sitemap">
-        <h6 class="sitemap__title">Courses</h6>
-        <ul class="sitemap__list">
-            <li><a href="#">Animation</a></li>
-            <li><a href="#">Design</a></li>
-            <li><a href="#">Illustration</a></li>
-            <li><a href="#">Programming</a></li>
-            <li><a href="#">Photo & Film</a></li>
-            <li><a href="#">Marketing</a></li>
-        </ul>
-    </div>
-    <div class="sitemap">
-        <h6 class="sitemap__title">Teachers</h6>
-        <ul class="sitemap__list">
-            <li><a href="#">All Teachers</a></li>
-            <li><a href="#">Become a Teacher</a></li>
-        </ul>
-    </div>
-    <div class="sitemap">
-        <h6 class="sitemap__title">Information</h6>
-        <ul class="sitemap__list">
-            <li><a href="#">Blog</a></li>
-            <li><a href="#">About us</a></li>
-            <li><a href="#">FAQ</a></li>
-        </ul>
-    </div>
-    <div class="sitemap">
-        <h6 class="sitemap__title">En</h6>
-        <ul class="sitemap__list">
-            <li><a href="#">English</a></li>
-            <li><a href="#">French</a></li>
-            <li><a href="#">Russian</a></li>
-            <li><a href="#">Ukrainian</a></li>
-        </ul>
-    </div>
-    <div class="footer__copyright">
-        <a href="#">Policy privacy</a>
-        <p>Copyright 2022. All rights reserved</p>
-    </div>
-</footer>    
+</footer>
 
 </body>
 </html>
